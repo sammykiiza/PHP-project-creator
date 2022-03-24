@@ -8,9 +8,11 @@ You clone the project into your home folder and then add the following line to y
 Where User is your system username
 
 ```
-alias createNewProject='php /home/User/PHP-project-creator/createNewProject.php'
+alias createNewProject='php /home/User/PHP-project-creator/index.php'
 ```
-Then edit the second line of the createNewProject.php to the correct path where you have stored the file.
+Then edit the second line of the index.php to the correct path where you have stored the file.
+
+After that, restart your shell before usage.
 
 ### Usage
 

@@ -1,7 +1,5 @@
-#!/bin/sh 
-php /home/sam/PHP-project-creator/createNewProject.php "$@"
-
 <?php 
+namespace App;
 class createNewProject
 {
     function create(string $name) : void
@@ -18,11 +16,4 @@ class createNewProject
         }
     }
 }
-
-$name = readline('Enter Project Name:');
-
-$create = new createNewProject();
-
-$create->create($name);
-
 ?>
