@@ -4,7 +4,7 @@ A shell template creator for php projects globally on your system.
 
 ### Installation
 
-You clone the project in your home folder and then add the following line to your .bashrc file:
+You clone the project into your home folder and then add the following line to your .bashrc file:
 Where User is your system username
 
 ```
