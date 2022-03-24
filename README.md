@@ -4,13 +4,13 @@ A shell template creator for php projects globally on your system.
 
 ### Installation
 
-You place it in your home folder and then add the following line to your .bashrc file:
+You clone the project in your home folder and then add the following line to your .bashrc file:
 Where User is your system username
 
 ```
 alias createNewProject='php /home/User/PHP-project-creator/createNewProject.php'
 ```
-Then edit the fsecond line of the createNewProject.php to the correct path where you have stored the file.
+Then edit the second line of the createNewProject.php to the correct path where you have stored the file.
 
 ### Usage
 
