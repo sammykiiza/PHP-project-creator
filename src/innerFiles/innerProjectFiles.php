@@ -24,14 +24,8 @@ class InnerProjectFiles
         $command2 = "cat $thisFilePath/fileContents/index.php > $this->currentDir/$this->name/index.php";
         exec($command2);
 
-        $command3 = "mkdir {$this->currentDir}/{$this->name}/src";
+        $command3 = "mkdir -v -p {$this->currentDir}/{$this->name}/src {$this->currentDir}/{$this->name}/src/Entities {$this->currentDir}/{$this->name}/src/Repositories";
         exec($command3);
-
-        $command4 = "mkdir {$this->currentDir}/{$this->name}/src/Entities";
-        exec($command4);
-
-        $command5 = "mkdir {$this->currentDir}/{$this->name}/src/Repositories";
-        exec($command5);
     }
     
 }
