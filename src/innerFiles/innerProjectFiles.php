@@ -22,10 +22,7 @@ class InnerProjectFiles
 
         $command2 = "cat $thisFilePath/fileContents/index.php > $this->currentDir/$this->name/index.php";
 
-        $command3 = "mkdir -v -p {$this->currentDir}/{$this->name}/src 
-                                {$this->currentDir}/{$this->name}/src/Entities 
-                                {$this->currentDir}/{$this->name}/src/Repositories 
-                                {$this->currentDir}/{$this->name}/src/Tests";
+        $command3 = "mkdir -p {$this->currentDir}/{$this->name}/src {$this->currentDir}/{$this->name}/src/Entities {$this->currentDir}/{$this->name}/src/Repositories {$this->currentDir}/{$this->name}/src/Tests";
 
         exec($command1."&&".$command2."&&".$command3."&& cd "
             .$this->currentDir."/".$this->name."&& composer init");
